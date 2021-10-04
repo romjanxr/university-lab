@@ -8,6 +8,7 @@ import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import AboutUs from './components/AboutUs/AboutUs';
 import Contact from './components/Contact/Contact';
+import Header from './components/Header/Header';
 
 const iconList = Object.keys(Icons)
   .filter((key) => key !== 'fas' && key !== 'prefix')
@@ -18,6 +19,7 @@ library.add(...iconList);
 function App() {
   return (
     <Router>
+      <Header />
       <Switch>
         <Route exact path="/">
           <Home />
