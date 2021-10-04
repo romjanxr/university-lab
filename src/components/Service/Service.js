@@ -4,7 +4,6 @@ import './Service.css'
 
 const Service = props => {
     const { title, description, icon } = props.service;
-    console.log(title);
     return (
         <div className="col-md-3 mt-5">
             <div>

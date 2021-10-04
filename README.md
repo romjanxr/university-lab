@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Website Name: University Lab
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live website Link [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

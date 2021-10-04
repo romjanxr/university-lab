@@ -16,7 +16,7 @@ const Contact = () => {
                     <div className="col-md-4">
                         <button onClick={handleContactBtn} className="btn-service mb-2">Contact Us</button>
                         <h3 className="mb-2">Request a free Quote</h3>
-                        <p className>You can contact us via phone number, email or by submitting the form!!</p>
+                        <p>You can contact us via phone number, email or by submitting the form!!</p>
 
                         <div className="d-flex justify-content-between border-bottom mb-3 mt-4">
                             <h5>SECRETARY :</h5>
