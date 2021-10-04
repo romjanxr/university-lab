@@ -1,0 +1,15 @@
+.btn-service {
+    background-color: #174873;
+    color: #ffffff;
+    border: 1px solid;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.service-title {
+    color: #174873;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}

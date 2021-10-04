@@ -1,0 +1,27 @@
+.icon {
+    font-size: 48px;
+    color: #a3a3a3;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #727475;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description {
+    color: #a3a3a3;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn-read {
+    background-color: #ffffff;
+    color: #a3a3a3;
+    border: 1px solid #f1f1f1;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

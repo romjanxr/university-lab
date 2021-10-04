@@ -1,0 +1,57 @@
+.hero-section {
+    width: 100%;
+    background: linear-gradient(rgba(101, 100, 96, 0.6) 0%, rgba(101, 100, 96, 0.6) 75%, rgba(101, 100, 96, 0) 100%), url(http://www.nicdarkthemes.com/themes/education/wp/demo/university/wp-content/uploads/sites/3/2016/08/parallax3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.details-container h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.btn-outline {
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btn-outline:hover {
+    border: 2px solid #174873;
+    background-color: #174873;
+}
+
+.btn-filled {
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #174873;
+    background-color: #174873;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.btn-filled:hover {
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.services {
+    padding: 50px 0;
+}
