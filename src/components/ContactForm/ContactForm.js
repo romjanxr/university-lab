@@ -32,7 +32,7 @@ const ContactForm = () => {
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button className="btn-home" type="submit">
+                <Button className="btn-home">
                     SEND NOW
                 </Button>
             </Form>

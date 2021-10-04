@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import UseServices from '../../hooks/UseServices/UseServices';
 import Contact from '../Contact/Contact';
 import Service from '../Service/Service';
@@ -13,8 +14,12 @@ const Home = () => {
                 <div className="details-container">
                     <div>
                         <h1>Education <br /> Learning Courses</h1>
-                        <button className="btn-outline">ABOUT US</button>
-                        <button className="btn-filled">SERVICES</button>
+                        <Link to="/about">
+                            <button className="btn-outline">ABOUT US</button>
+                        </Link>
+                        <Link to="/services">
+                            <button className="btn-filled">SERVICES</button>
+                        </Link>
                     </div>
                 </div>
             </section>

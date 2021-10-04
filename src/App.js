@@ -9,6 +9,7 @@ import NotFound from './components/NotFound/NotFound';
 import AboutUs from './components/AboutUs/AboutUs';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 const iconList = Object.keys(Icons)
   .filter((key) => key !== 'fas' && key !== 'prefix')
@@ -40,6 +41,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

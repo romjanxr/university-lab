@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import './Header.css'
 
 const Header = () => {
     const navStyle = { textDecoration: 'none', color: 'black', fontSize: '18px', marginRight: '20px', fontWeight: '500' };

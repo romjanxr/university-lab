@@ -1,0 +1,15 @@
+.footer-bg {
+    background-color: #444444;
+    height: 35vh;
+}
+
+.footer-icon {
+    color: gray;
+    font-size: 2em;
+    margin-right: 10px;
+}
+.footer-icon:hover {
+    color: white;
+    font-size: 2em;
+    margin-right: 10px;
+}
