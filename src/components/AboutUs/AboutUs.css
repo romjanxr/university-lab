@@ -1,0 +1,32 @@
+.about-section {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(101, 100, 96, 0.6) 0%, rgba(101, 100, 96, 0.6) 75%, rgba(101, 100, 96, 0) 100%), url(https://cdn.pixabay.com/photo/2013/11/05/03/48/harvard-205539_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.about-title {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.details {
+    font-size: 36px;
+    color: white;
+    line-height: 41px;
+    text-align: justify;
+}
+
+.glance-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #174873
+}
+
+.glance-detail {
+    font-size: 18px;
+    color: #1e1e1e;
+}

@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
 import Services from './components/Services/Services';
+import NotFound from './components/NotFound/NotFound';
+import AboutUs from './components/AboutUs/AboutUs';
+import Contact from './components/Contact/Contact';
 
 const iconList = Object.keys(Icons)
   .filter((key) => key !== 'fas' && key !== 'prefix')
@@ -24,6 +27,15 @@ function App() {
         </Route>
         <Route path="/services">
           <Services />
+        </Route>
+        <Route path="/about">
+          <AboutUs />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="*">
+          <NotFound />
         </Route>
       </Switch>
     </Router>
