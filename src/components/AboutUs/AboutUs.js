@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutUs.css'
+import img from '../../images/img2.jpeg'
 
 const AboutUs = () => {
     return (
@@ -18,7 +19,7 @@ const AboutUs = () => {
                 <div className="row mx-5">
                     <div className="col-md-6">
                         <h2 className="mb-3">University Lab At a Glance</h2>
-                        <img className="img-fluid" src="https://www.harvard.edu/wp-content/uploads/2021/02/050418_John_Harvard_179-1152x767.jpeg" alt="" />
+                        <img className="img-fluid" src={img} alt="" />
                     </div>
                     <div className="col-md-6 ps-4">
                         <div className="mb-3">
