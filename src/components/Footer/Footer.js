@@ -2,13 +2,14 @@ import { faFacebook, faLinkedinIn, faPinterest, faReddit, faTwitter } from '@for
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css'
+import footerImg from '../../images/footer.png'
 
 const Footer = () => {
     return (
         <div className="footer-bg d-flex justify-content-center align-items-center">
             <div>
                 <div className="text-center">
-                    <img className="w-50" src="http://www.nicdarkthemes.com/themes/education/wp/demo/university/wp-content/uploads/sites/3/2016/08/logo-university-white.png" alt="" />
+                    <img className="w-50" src={footerImg} alt="" />
                 </div>
                 <div className="mt-3 text-center">
                     <FontAwesomeIcon className="footer-icon" icon={faFacebook} />
